@@ -1,14 +1,14 @@
 class Macmon < Formula
   desc "Sudoless performance monitoring CLI tool for Apple Silicon processors"
   homepage "https://github.com/vladkens/macmon"
-  version "0.4.1"
+  version "0.4.2"
   license "MIT"
 
   depends_on arch: :arm64
   depends_on :macos
 
-  url "https://github.com/vladkens/macmon/releases/download/v0.4.1/macmon-v0.4.1.tar.gz"
-  sha256 "51a75c59bd9045442604707f0b092fe3774fe4b085707a8c02d465dbfb2d5c4f"
+  url "https://github.com/vladkens/macmon/releases/download/v0.4.2/macmon-v0.4.2.tar.gz"
+  sha256 "a0b2614244ffbb544a543dcec1548762d29fd05b565be9a422f0cf22e1149b46"
 
   def install
     bin.install "macmon"
