@@ -5,8 +5,6 @@ class Ecloop < Formula
   version "0.3.0"
   license "MIT"
 
-  depends_on "gcc"
-
   def install
     system "make"
     bin.install "ecloop"
