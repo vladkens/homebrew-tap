@@ -3,9 +3,9 @@ class Ecloop < Formula
   homepage "https://github.com/vladkens/ecloop"
   license "MIT"
   url "https://github.com/vladkens/ecloop.git",
-    tag:      "v0.3.0",
-    revision: "c9eb9ee07398cbc33f8a9aa5ffe0b03022814aae"
-  version "0.3.0"
+    tag:      "v0.4.0",
+    revision: "2543df0f7c1e1128c509bd9e6d26486625dbb432"
+  version "0.4.0"
 
   def install
     system "make"
