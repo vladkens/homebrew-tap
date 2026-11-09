@@ -1,8 +1,8 @@
 class Wavo < Formula
   desc "Speech-to-text on the GPU: Parakeet, GigaAM, Whisper and Moonshine"
   homepage "https://github.com/vladkens/wavo"
-  url "https://github.com/vladkens/wavo/releases/download/v0.4.0/wavo-v0.4.0-aarch64-apple-darwin.tar.gz"
-  sha256 "f989e9a229ef2449a0468e7d9895bde88a3e2ce6697c2a2af25ae54be95682ed"
+  url "https://github.com/vladkens/wavo/releases/download/v0.5.0/wavo-v0.5.0-aarch64-apple-darwin.tar.gz"
+  sha256 "3a7b629352ca85efd85b091d1706c5a6e81c2dd9134aa0b6d8016c1f8456f024"
   license "MIT"
 
   on_macos do
@@ -11,12 +11,12 @@ class Wavo < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/vladkens/wavo/releases/download/v0.4.0/wavo-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4ef32c79161be489ce4d0b465ed644aa02cf4b5abbd271ad7cdfa43f384d8034"
+      url "https://github.com/vladkens/wavo/releases/download/v0.5.0/wavo-v0.5.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "74dc86885d99238ea1ff6f26c04d72b0d527dd746170d4971aadd7690890df80"
     end
     on_intel do
-      url "https://github.com/vladkens/wavo/releases/download/v0.4.0/wavo-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6dfcad395b73b09ac2b110d0342286f84c23980c4e5dea1fe0df67ce1fe09f12"
+      url "https://github.com/vladkens/wavo/releases/download/v0.5.0/wavo-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "97b427de9a6128fd66b0a6a4815d3bd10d00624144f18dbbe005c95280fa53a4"
     end
   end
 
