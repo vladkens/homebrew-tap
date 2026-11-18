@@ -24,6 +24,7 @@ cask "awake" do
 
   zap trash: [
     "~/Library/Application Support/me.vladkens.awake",
+    "~/Library/HTTPStorages/me.vladkens.awake",
     "~/Library/Preferences/me.vladkens.awake.plist",
   ]
 end
