@@ -1,13 +1,13 @@
 cask "awake" do
-  version "0.1.0"
+  version "0.2.0"
 
   on_arm do
-    url "https://github.com/vladkens/awake/releases/download/v0.1.0/Awake-v0.1.0-macos-aarch64.dmg"
-    sha256 "fb71178a3fe6950dcaaa6eb4d71a5251baf0575dd1baf723b81a2ebffb4ac110"
+    url "https://github.com/vladkens/awake/releases/download/v0.2.0/Awake-v0.2.0-macos-aarch64.dmg"
+    sha256 "9d3e12189241d8a20b58b70792ee82289996e69cf5cd5fc37dab68ed3d88292e"
   end
   on_intel do
-    url "https://github.com/vladkens/awake/releases/download/v0.1.0/Awake-v0.1.0-macos-x86_64.dmg"
-    sha256 "5535eeabc9f589870c2acb187f0b92fc8639b6c3d27d45d5986f957a84e122b8"
+    url "https://github.com/vladkens/awake/releases/download/v0.2.0/Awake-v0.2.0-macos-x86_64.dmg"
+    sha256 "90db870c0038967e235a69d58d9c4c5202bd0bed0234d82c1ac232b6f360b60a"
   end
 
   name "Awake"
